@@ -14,7 +14,7 @@ import com.hizkeel.tredditapp.R;
 import com.hizkeel.tredditapp.databinding.ActivityHomeBinding;
 
 public class Home extends AppCompatActivity {
-
+//fi
     private ActivityHomeBinding binding;
 
     @Override

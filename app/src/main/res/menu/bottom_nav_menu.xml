@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_best"
+        android:icon="@drawable/ic_best"
+        android:title="@string/best" />
+
+
+    <item
+        android:id="@+id/navigation_trending"
+        android:icon="@drawable/ic_trending"
+        android:title="@string/trending" />
+
+
+    <item
+        android:id="@+id/navigation_rising"
+        android:icon="@drawable/ic_baseline_rising"
+        android:title="@string/rising" />
+
+
+    <item
+        android:id="@+id/navigation_controversial"
+        android:icon="@drawable/ic_controversial"
+        android:title="@string/controversial" />
+
+
+
+</menu>

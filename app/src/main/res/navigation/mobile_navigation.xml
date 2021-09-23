@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_best">
+
+    <fragment
+        android:id="@+id/navigation_best"
+        android:name="com.hizkeel.tredditapp.ui.BestFragment"
+        android:label="@string/best"
+        tools:layout="@layout/fragment_best" />
+
+    <fragment
+        android:id="@+id/navigation_trending"
+        android:name="com.hizkeel.tredditapp.ui.TrendingFragment"
+        android:label="@string/trending"
+        tools:layout="@layout/fragment_trending" />
+
+    <fragment
+        android:id="@+id/navigation_rising"
+        android:name="com.hizkeel.tredditapp.ui.RisingFragment"
+        android:label="@string/rising"
+        tools:layout="@layout/fragment_rising" />
+
+    <fragment
+        android:id="@+id/navigation_controversial"
+        android:name="com.hizkeel.tredditapp.ui.ControversialFragment"
+        android:label="@string/rising"
+        tools:layout="@layout/fragment_controversial" />
+</navigation>
